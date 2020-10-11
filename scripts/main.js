@@ -2,8 +2,8 @@
     'use strict';
     var FORM_SELECTOR = '[data-coffee-order="form"]';
     var CHECKLIST_SELECTOR = '[data-coffee-order="checklist"]';     // CHOOSE ONLY ONE...
-   // var SERVER_URL = 'https://co.audstanley.com/coffeeorders';    // if running on the shared server
-    var SERVER_URL = 'http://localhost:3000/coffeeorders';          // if running locally
+    var SERVER_URL = 'https://co.audstanley.com/coffeeorders';    // if running on the shared server
+    //var SERVER_URL = 'http://localhost:3000/coffeeorders';          // if running locally
     var App = window.App;
     var Truck = App.Truck;
     var DataStore = App.DataStore;
